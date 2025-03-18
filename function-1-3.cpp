@@ -1,9 +1,13 @@
 #include <iostream>
 
 double* duplicateArray(double* array, int size){
-    double* ptr;
+    double* arr = new double[size];
 
-    ptr = &array[0];
+    for (int i = 0; i < size; i++)
+    {
+        arr[i] = array[i];
+    }
     
-    return ptr;
+    
+    return arr;
 }

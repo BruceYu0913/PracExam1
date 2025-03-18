@@ -15,5 +15,6 @@ int main(){
         std::cout<<newArray[i]<<" ";
     }
     
+    delete(newArray);
     return 0;;
 }
